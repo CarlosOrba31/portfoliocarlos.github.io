@@ -1,0 +1,140 @@
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;    
+}
+
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #f1f1f1;
+    color: #314652;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
+  
+  .buttons a:hover {
+    transform: scale(1.2);
+  }
+
+  #Portfolio {
+    padding: 30px;
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(
+        0deg,    
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(media/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #Portfolio h1{
+    color: white;
+  }
+
+  #quien-soy .quien-soy{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#quien-soy .texto{
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#quien-soy h1{
+    margin-top: 0px;
+}
+
+#quien-soy .img-container{
+    background-image: url("media/IMG-20200521-WA0018.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 550px;
+    margin-top: 30px; 
+}
+
+
+#mis-trabajos {
+  display: flex;
+  align-items: ;
+  background-color: #06161f;
+  color: white;
+  text-align: center;
+  flex-direction: column;
+}
+
+
+#mis-trabajos .mis-trabajos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 50px 12px;
+  margin: 30px;
+  justify-content: space-around;
+}
+
+.trabajo-1{
+    margin: auto;
+    padding: 20px;
+}
+
+.trabajo-2{
+    margin: auto;
+    padding: 20px;
+}
+
+.trabajo-3{
+    margin: auto;
+    padding: 20px;
+}
+
+.mis-trabajos h1{
+    text-align: center;
+}
+
+.mis-trabajos a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #f1f1f1;
+    color: #314652;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
+  
+  .mis-trabajos a:hover {
+    transform: scale(1.2);
+  }
