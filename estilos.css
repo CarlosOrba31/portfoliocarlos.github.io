@@ -74,18 +74,18 @@ body{
 }
 
 #quien-soy .img-container{
-    background-image: url("media/IMG-20200521-WA0018.jpg");
+    background-image: url("media/images.png");
     background-size: cover;
     background-position: center center;
     height: 500px;
     width: 550px;
     margin-top: 30px; 
+    margin-bottom: 30px;
 }
 
 
 #mis-trabajos {
   display: flex;
-  align-items: ;
   background-color: #06161f;
   color: white;
   text-align: center;
@@ -137,4 +137,14 @@ body{
   
   .mis-trabajos a:hover {
     transform: scale(1.2);
+  }
+
+
+  #contacto .contacto {
+    text-align: center;
+  }
+
+  .footer {
+    text-align: end;
+    padding: 20px;
   }
