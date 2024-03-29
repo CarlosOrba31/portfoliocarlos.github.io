@@ -63,6 +63,12 @@ body{
     font-size: 5em;
   }
 
+  .imgspan{
+    display: flex;
+    flex-direction: row-reverse;
+    
+  }
+
   #quien-soy .quien-soy{
     display: flex;
     justify-content: space-evenly;
