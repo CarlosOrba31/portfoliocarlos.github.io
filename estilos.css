@@ -7,16 +7,20 @@ p{font-size: 1.25em}
 
 body{
     margin: 0;
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Roboto', sans-serif;
 }
 
 .buttons {
-    min-width: 700px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     height: 222px;
+  }
+
+  .fa-twitter{
+    margin-left: 50px;
+    margin-right: 50px;
   }
   
   .buttons a {
@@ -41,21 +45,22 @@ body{
     padding: 30px;
     display: flex;
     height: 100vh;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     background-color: rgb(13, 38, 63);
+    padding-left: 150px;
   }
-
+  
   .spnoun{
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-left: 50px;
   }
   .spnoun span{
     color: white;
     font-family: "Chakra Petch", sans-serif;
+    font-size: 5em;
   }
 
   #quien-soy .quien-soy{
