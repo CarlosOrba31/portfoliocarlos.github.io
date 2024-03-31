@@ -10,12 +10,37 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.buttons {
+  header{
+    background-color: rgb(13, 38, 63);
+  }
+
+  .buttons {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 222px;
+  }
+
+  .navbar{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+
+  }
+
+  .navbar a{
+    margin: 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: "Chakra Petch";
+    transition: all .4s ease-in-out;
+  }
+
+  .navbar a:hover{
+    transform: scale(1.2);
+    color: rgb(202, 235, 20);
   }
 
   .fa-twitter{
@@ -41,22 +66,21 @@ body{
     transform: scale(1.2);
   }
 
-  #Portfolio {
+  .portfolio {
     padding: 30px;
     display: flex;
     height: 100vh;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(13, 38, 63);
   }
   
-  .spnoun{
+.spnoun{
     display: flex;
     flex-direction: column;
     text-align: left;
   }
-  .spnoun span{
+.spnoun span{
     color: white;
     font-family: "Chakra Petch", sans-serif;
     font-size: 5em;
