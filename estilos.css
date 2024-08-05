@@ -12,7 +12,7 @@ img{
 
 body{
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Chakra Petch", sans-serif;
 }
 
   header{
@@ -40,7 +40,6 @@ body{
     color: white;
     text-decoration: none;
     font-size: 1.5em;
-    font-family: "Chakra Petch";
     transition: all .4s ease-in-out;
   }
 
@@ -88,7 +87,6 @@ body{
   }
 .spnoun span{
     color: white;
-    font-family: "Chakra Petch", sans-serif;
     font-size: 5em;
 }
 
@@ -96,11 +94,49 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-left: 20px;
+  padding: 40px;
+  height: 50vh;
 }
 
+.sobre-mi{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  margin-right: 35px;
+  width: 500px;
+}
 
+.sobre-mi span{
+  height: 25%;
+}
 
+.sobre-mi p{
+  margin: 0;
+  height: 50%;
+}
+
+.tech{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  width: 500px;
+}
+
+.tech span{
+  height: 25%;
+}
+
+.techimg{
+  height: 50%;
+  width: 55%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
 
 #mis-trabajos {
   display: flex;
